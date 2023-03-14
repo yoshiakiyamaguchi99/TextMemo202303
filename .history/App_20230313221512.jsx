@@ -8,16 +8,13 @@ export default function App() {
   return (
     // eslint-disable-next-line react/react-in-jsx-scope
     <View style={styles.container}>
-      <Hello bang>World</Hello>
-      <Hello bang style={{ fontSize: 16 }}>Small World</Hello>
+      <Hello>World</Hello>
       <Text>Open up App.js to start working on your app!</Text>
       {/* eslint-disable-next-line */}
       <StatusBar style="auto" />
     </View>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   container: {
